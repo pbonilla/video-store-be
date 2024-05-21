@@ -1,24 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Ruby on Rails application built as part of a recruitment process.
 
-Things you may want to cover:
+It is built under Rails 7.1 and Ruby 3.2.2.
 
-* Ruby version
+The application is a basic REST API that will manage Movies.
+This is using SQLite as DB engine, so there's no need to install any DB driver into your system.
 
-* System dependencies
+To run this locally, let's follow this steps:
 
-* Configuration
+- Make sure that you have installed Ruby 3.2.2 in your system.
+- Inside the project folder, run `bundle install` to install all the required gems
+- In order to setup the DB for the project, please run:
+  - rails db:migrate
+  - rails db:seed
+- At this point you should be ready to run `rails server` to start receiving requests.
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
